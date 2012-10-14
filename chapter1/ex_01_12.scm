@@ -1,13 +1,13 @@
-;;; 不过此时行和列均为1开始
+;;; 此时行和列均为1开始
 (define (pascal row col)
   (cond ((or (> col row) 
-	     (< col 1)) 0)
-	((or (= col 1)
-	     (= col row)) 1)
-	(else (+ (pascal (- row 1) (- col 1))
-		 (pascal (- row 1) col))
-	      
-	      )
+         (< col 1)) 0)
+    ((or (= col 1)
+         (= col row)) 1)
+    (else (+ (pascal (- row 1) (- col 1))
+         (pascal (- row 1) col))
+          
+          )
    )
   )
 
