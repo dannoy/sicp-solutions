@@ -18,10 +18,11 @@
 ;;;(sum-of-bigger-two-1 10 3 4)		
 
 
-(define (sum-of-bigger-two-2 x y z)
-  (+ (bigger x y)
-     (bigger y z))
-  )
+;;; Wrong!
+;;;(define (sum-of-bigger-two-2 x y z)
+;;;  (+ (bigger x y)
+;;;     (bigger y z))
+;;;  )
 
 
 ;;;(sum-of-bigger-two-2 10 3 4)
