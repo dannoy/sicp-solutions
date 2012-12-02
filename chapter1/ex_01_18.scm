@@ -1,16 +1,10 @@
 
-(define (half x)
-  (/ x 2)
-  )
+(define (half x) (/ x 2))
 
 
-(define (double x)
-  (+ x x)
-  )
+(define (double x) (+ x x))
 
-(define (even? x)
-  (= (remainder x 2 ) 0)
-  )
+(define (even? x) (= (remainder x 2 ) 0))
 
 (define (fast-mutiply-iter a b)
   (define (iter res a b)

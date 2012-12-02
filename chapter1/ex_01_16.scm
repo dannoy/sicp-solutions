@@ -1,10 +1,6 @@
-(define (square a)
-  (* a a)
- )
+(define (square a) (* a a))
 
-(define (even? n)
-  (= (remainder n 2) 0)
-  )
+(define (even? n) (= (remainder n 2) 0))
 
 (define (fast-exp b n)
   (cond ((= n 0) 1)
